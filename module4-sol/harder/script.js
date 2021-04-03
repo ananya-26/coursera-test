@@ -39,7 +39,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
 for (var i=0;i<names.length;i++) {
- firstLetter= names[i].charAt(0).toLowerCase(0);
+var firstLetter= names[i].charAt(0).toLowerCase(0);
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
